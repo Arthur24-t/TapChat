@@ -1,0 +1,136 @@
+/* * {
+    margin:0;
+    box-sizing: border-box;
+} */
+
+.cover-login{
+    width: 25em;
+    height:37em;
+    position: relative;
+    border: solid;
+    border-radius: 1em;
+    border-width: 3px;
+    border-color: black;
+    background-color: white;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: auto; 
+    margin-top: 5%;
+}
+
+.cover-register{
+    width: 25em;
+    height: 58em;
+    position: relative;
+    border: solid;
+    border-radius: 1em;
+    border-width: 3px;
+    border-color: black;
+    background-color: white;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: auto; 
+    margin-top: 5%;
+}
+
+.titre{
+    color: black;
+    background-color: white;
+}
+
+.sub_title{
+    margin-top: 1em;
+    background-color: white;
+}
+
+.alt-login{
+    width: 100%;
+    height: 3em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.google{
+    width: 20%;
+    height: 100%; 
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+    bottom: 2em;
+}
+
+.identification{
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 2em;
+    width: 80%;
+    border-radius: 00.25em;
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+.login-btn{
+    width: 40%;
+    height: 3em;
+    background-color: #264653;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    border: none;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 0,5em;
+    color: white;
+    font-weight: bold;
+}
+
+.register-btn{
+    width: 100%;
+    height: 5em;
+    background-color: #264653;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    border: none;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 0,5em;
+    color: white;
+    font-weight: bold;
+}
+
+.login-btn:hover{
+    transform: scale(1.15);
+}
+
+.register-btn:hover{
+    transform: scale(1.15);
+}
+
+.text{
+    position: relative;
+    margin-top: 2em;
+}
+
+.hide{
+    position: absolute;
+    transform: scale(0);
+}
+
+.link{
+    width: 40%;
+    background-color: white;
+    text-decoration: none;
+}

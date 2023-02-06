@@ -1,0 +1,53 @@
+.PopupOptions {
+    position: fixed;
+    width: 15%;
+    margin: 5% auto auto 80%;
+    border: 2px solid #4db6ac;
+    border-radius: 30px;
+    background-color: #264653;
+    text-align: center;
+
+}
+
+.PopupOptions-btn {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin: 1% 2% auto auto ;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: #4db6ac
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+}
+
+.PopupOptions a{
+    font-size: 1.5rem;
+}
+
+.PopupPseudoChg {
+    position: absolute;
+    width: 15%;
+    margin: 7% auto auto 75%;
+    border: 2px solid #4db6ac;
+    border-radius: 30px;
+    background-color: #264653;
+    text-align: center;
+}
+
+.PopupConnexion{
+    position: absolute;
+    width: 15%;
+    margin: 9% auto auto 75%;
+    border: 2px solid #4db6ac;
+    border-radius: 30px;
+    background-color: #264653;
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}

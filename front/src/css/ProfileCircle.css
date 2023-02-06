@@ -1,0 +1,14 @@
+.ProfileCircle {
+    margin: 1% 1% auto auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #264653;
+    cursor: pointer;
+}
+
+.initiale {
+    margin: 0;
+    font-size: 5rem;
+    color: #4db6ac;
+}

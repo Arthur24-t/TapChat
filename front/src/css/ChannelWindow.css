@@ -1,0 +1,65 @@
+.ChannelWindow{
+    margin: 8% auto 2% auto;
+    width: 60%;
+    background-color: #264653;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ChatBar {
+    margin: auto auto 2% auto;
+    height: 8%;
+    width: 90%;
+    border-radius: 30px;
+    background-color: lightgrey;
+    display: flex;
+    background-image: url("../img/Send.png");
+}
+
+.send-btn{
+    margin: auto 1% auto auto;
+    float: right;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 30px;
+    background-image: url("../img/Send.png");
+    background-size: cover;
+
+}
+
+.mess-input {
+    background-color: transparent;
+    margin: auto ;
+    height: 75%;
+    width: 91%;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+   
+}
+
+.mess-input:focus{
+    background-color: transparent;
+    border: 0px;
+}
+
+.messages-list {
+    overflow-y: scroll;
+    margin-bottom: 2%;
+}
+
+.rename {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 20%;
+    margin: 5% 15% 15% 15%;
+    border: 2px solid #4db6ac;
+    border-radius: 30px;
+    background-color: #264653;
+    text-align: center;
+}

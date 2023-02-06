@@ -1,0 +1,24 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto; 
+    text-align: left;
+}
+
+.username {
+    margin: 0
+}
+
+.message {
+    margin: 0 auto 0 2%;
+}
+
+.date {
+    font-size: 1rem;
+}
+
+.haut {
+    display: flex;
+    align-items: baseline;
+    gap : 10px;
+}
