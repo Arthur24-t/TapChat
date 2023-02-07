@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+#
+# Launch React on port 3000
+#
+  front:
+    build: "./front"
+    ports:
+      - '3000:3000'
+    restart: on-failure
+
+#
+# Launch Express on port 8080
+#
+  back:
+    build: "./back"
+    ports:
+      - '8080:8080'
+    environment:
+      - "PORT=8080"
+      - "DB=JSF_IRC"
+      - "USER=Arthur"
+      - "PASSWD=1234"
+    restart: on-failure

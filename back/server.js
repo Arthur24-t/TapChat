@@ -10,7 +10,7 @@ var CHANNELS = [];
 const db = require("./models");
 const Role = db.role;
 
-const PORT = 8080;
+const PORT = process.env.PORT;
 const io = require("socket.io")(http, {
   cors: {
     origin: "*",
@@ -43,7 +43,7 @@ http.listen(PORT, () => {
 
 db.mongoose
   .connect(
-    `mongodb+srv://Arthur:1234@irc.uidoj5k.mongodb.net/JSF_IRC?retryWrites=true&w=majority`,
+    `mongodb+srv://${process.env.USER}:${process.env.PASSWD}@irc.uidoj5k.mongodb.net/${process.env.DB}?retryWrites=true&w=majority`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

@@ -43,7 +43,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/),[Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/engine/reference/commandline/compose/) installed.
 
 ## :checkered_flag: Starting ##
 
@@ -53,6 +53,16 @@ $ git clone https://github.com/EpitechMscProPromo2025/t-jsf-600-lil-6-1-ircjavas
 
 # Access
 $ cd t-jsf-600-lil-6-1-ircjavascript-arthur-trusgnach
+
+#####################
+#####For Docker######
+#####################
+
+$ docker-compose up
+
+#####################
+##### Manually ######
+#####################
 
 #for the Express back 
 # Install dependencies
